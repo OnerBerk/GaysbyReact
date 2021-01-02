@@ -1,0 +1,23 @@
+.mainMenu{
+  width: 100%;
+  padding: 0.5em;
+  background-color: rgba(146, 89, 89, 0.8);
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+mainMenu, a{
+  margin-left: 1em;
+  text-decoration: none;
+  color: snow;
+  font-size: 1.3em;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-column-start: 3;
+}
+.siteInfo , div{
+  font-size: 1.05em;
+}
